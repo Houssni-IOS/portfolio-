@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff00;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(./components/images/bluebackground.avif);
+  background-size: 10000px;
+  background-position: 200000ch;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #dbedef;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: rgb(0, 255, 238);
+  background: fixed;
+}
+
+.nav-item {
+  padding-right: 180px; /* ajustez la valeur pour l'espacement souhaité */
 }
